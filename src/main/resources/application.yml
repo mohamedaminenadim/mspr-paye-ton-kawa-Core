@@ -1,0 +1,10 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  application:
+    name: core
+  cloud:
+    config:
+      enabled: false
+server:
+  port: 8008
